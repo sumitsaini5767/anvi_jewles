@@ -1,0 +1,129 @@
+.news_feeds {
+  background-color: #1c1b19;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30vh;
+}
+
+.news_feed {
+  padding: 8% 0% 0%;
+  width: 90%;
+  position: relative;
+}
+/* .one_more_slider{
+  position: relative;
+} */
+
+.news_feed-text h5 {
+  font-size: 0.89rem;
+  color: #a3a3a3;
+  letter-spacing: 3px;
+}
+
+.news_feed-text h1 {
+  padding-top: 1.5%;
+    font-size: 4.3rem;
+    font-family: prata, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    line-height: 1.1;
+}
+
+.news-slider {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding-top: 3%;
+}
+
+li.react-multi-carousel-item.react-multi-carousel-item--active {
+  margin-left: 0px;
+}
+
+.news-right-arrow {
+  position: absolute !important;
+  right: 30px;
+  z-index: 1;
+  border: 1px solid grey;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  opacity: 0.8;
+  cursor: pointer;
+  transform: rotate(-45deg);
+}
+
+.news-right-arrow:hover {
+  opacity: 1;
+}
+
+.news-left-arrow {
+  position: absolute !important;
+  left: 30px;
+  z-index: 1;
+  border: 1px solid grey;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+  opacity: 0.8;
+  cursor: pointer;
+  transform: rotate(135deg);
+}
+
+.news-left-arrow {
+  opacity: 1;
+}
+
+.news-button-group1 {
+  position: absolute;
+  justify-content: flex-end;
+  right: 0;
+  top: 135px;
+}
+
+
+.news-btns {
+  padding: 20px 22px;
+  font-size: 22px;
+  border: none;
+  background-color: transparent;
+}
+
+.nf-prev-btn {
+  background-color: #1c1b19 !important;
+  color: white;
+}
+
+.nf-prev-btn:hover {
+  background-color: #fcd462 !important;
+  color: black;
+  box-shadow: 1px 1px 10px #fcd462;
+}
+
+.nf-next-btn {
+  margin-left: 20px;
+  background-color: #fcd462 !important;
+}
+
+.nf-next-btn:hover {
+  box-shadow: 1px 1px 10px #fcd462;
+}
+
+.news-feed-images {
+  opacity: 0.8;
+}
+
+/* .react-multi-carousel-track {
+  transform: translate3d(-2295px, 0px, 0px) !important;
+    gap: 10px;
+    height: 77vh;
+} */
+
+
+@media (max-width:710px) {
+  .react-multi-carousel-track {
+    height: 67vh;
+}
+}

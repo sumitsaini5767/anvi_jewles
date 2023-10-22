@@ -1,0 +1,138 @@
+.sec_1Bar {
+  background-color: #353530;
+  display: flex;
+    justify-content: center;
+    position: relative;
+    width:100%;
+}
+
+.sec_1bar1 {
+  padding: 20px 0 ;
+  display: flex;
+    justify-content: center;
+    width: 90%;
+}
+
+.bar1 {
+  display: flex;
+    height:180px;
+    min-width: 240px;
+    max-width: 240px;
+    border:2px solid #454541;
+    text-align: left;
+    color: white;
+    /* margin-right: 10px; */
+    padding: 20px;
+    background-color: #353530;
+}
+
+.img_div {
+  height: 50px;
+  width: 50px;
+  background-color: #fcd462;
+  text-align: center;
+  padding: 15px;
+}
+
+.sec_1Bar img {
+  height: 20px;
+  width: 20px;
+}
+
+.sec1_imagehover {
+  display: none;
+  position: relative;
+  padding-top: 58px;
+  padding-left: 34px;
+  animation: mymove 0.4s;
+}
+.sec1_imagehover_2 {
+  display: none;
+  position: relative;
+  padding-top: 58px;
+  padding-left: 30px;
+  animation: mymove 0.4s;
+}
+
+.sec1_imagehover_3 {
+  display: none;
+  position: relative;
+  padding-top: 55px;
+  padding-left: 35px;
+  animation: mymove 0.4s;
+}
+.sec1_imagehover_4 {
+  display: none;
+  position: relative;
+  padding-top: 55px;
+  padding-left: 12px;
+  animation: mymove 0.4s;
+}
+
+@keyframes mymove {
+  from {
+    left: 15px;
+    top: 20px;
+  }
+
+  to {
+    left: 0px;
+    top: 0px;
+  }
+}
+
+.sec1_imagehover img {
+  height: 85px;
+  width: 85px;
+}
+.sec1_imagehover_2 img{
+  height: 85px;
+  width:85px;
+}
+.sec1_imagehover_3 img {
+  height: 85px;
+  width: 85px;
+}
+.sec1_imagehover_4 img {
+  height: 85px;
+  width: 85px;
+}
+
+.bar1:hover {
+  background-color: #1c1b19;
+  border: none;
+}
+
+.bar1:hover .sec1_imagehover {
+  display: block;
+}
+.bar1:hover .sec1_imagehover_2 {
+  display: block;
+}
+.bar1:hover .sec1_imagehover_3 {
+  display: block;
+}
+.bar1:hover .sec1_imagehover_4 {
+  display: block;
+}
+
+.bar1 h5 {
+  padding-top: 18px;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.bar1 p {
+  padding-top: 15px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #8a8a89;
+}
+
+.bar-img {
+  filter: brightness(0);
+}
+
+.bar-img-bg {
+  filter: grayscale(100%) brightness(50%);
+}

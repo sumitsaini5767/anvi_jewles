@@ -1,0 +1,38 @@
+@media (max-width:600px) {
+    #sec_1{
+        background-position: center;
+        zoom:40%;
+        height:90vh;
+        width: 100%;
+    }
+    #sec_1 h4{
+        padding-top: 15%;
+        font-size:2rem;
+    }
+    #sec_1 h1{
+        margin-top: 1%;
+        font-size: 5.5rem;
+        font-weight: 10;
+    }
+    #b1{
+        padding: 30px 50px;
+        margin-top: 5%;
+        font-size: 1.8rem;
+    }
+    .sec_1Bar{
+        bottom: -98%;
+        padding: 5%;
+    }
+    .sec_1bar1{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0%;
+    }
+    .bar1{
+        width: 44%;
+        padding: 3%;
+        margin: 3%;
+    }
+
+}

@@ -1,0 +1,54 @@
+@media (max-width: 600px){
+    .abtTop{
+       height: 50vh;
+    }
+    .abtTop p{
+        font-size: small;
+    }
+    .abtTop h1{
+        font-size: 50px;
+    }
+    .abtTopSub{
+        width: 35%;
+        bottom: -5%;
+    }
+
+    .abtHero{
+        padding: 10% 6% 0;
+    }
+
+    .abtHero h4{
+        color: #a3a3a3;
+        font-size: 14px;
+        padding: 10% 0 1.5%;
+    }
+    .abtHero h2{
+        font-size: 30px;
+    }
+
+    .abtHero p{
+        text-align: justify;
+        margin: 0 0 10%;
+    }
+
+    .abtFeedCount1 h4{
+        font-size:12px;
+    }
+    .abtFeedCount1 h2{
+        font-size: 32px;
+    }
+
+    .abtFC2User{
+        align-items: right;
+        text-align: center;
+        width: 90%;
+        margin-bottom: 10%;
+    }
+
+    .abtFeedCount2{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 1.3%;
+    }
+
+}

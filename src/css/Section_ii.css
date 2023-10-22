@@ -1,0 +1,289 @@
+.sec_2 {
+  background-image: url("/public/images/sec_ii.jpg");
+  background-repeat: no-repeat;
+  height:200vh;
+  background-position-x: 100%;
+  background-position-y: 80%;
+  background-color: #1c1b19;
+  font-family: prata, 'Times New Roman', Times, serif;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  padding: 20% 0% 5%;
+  
+}
+.sec_2_1{
+  width: 95%;
+  height: 100%;
+  display: flex;
+  /* justify-content: center; */
+}
+/* .sec_2MainBox {
+  background-repeat: no-repeat;
+  background-size: 101% 86%;
+  background-image: url("/public/images/sec_ii.jpg");
+  width: 90%;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-position: bottom;
+  gap: 20px;
+} */
+
+.sec2_imgbar1 {
+  width: 48%;
+  height: 100%;
+  display: flex;
+  /* justify-content: flex-start; */
+  /* gap: 20px; */
+}
+
+.sec2_ibar11 {
+  height: 90%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 35px; */
+  margin-right: 3.5%;
+}
+.sec2_ibar12 {
+  height: 90%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 35px; */
+  margin: 0% 3.5% 0% 0%;
+}
+
+.sec2_imgdiv1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 48%;
+  width: 100%;
+  background-color: #353530;
+  text-align: center;
+}
+
+.sec2_img1 {
+  height: 23%;
+  width: 24%;
+  color: #fcd462;
+}
+
+.sec2_imgdiv1 h2 {
+  padding-top: 10%;
+}
+
+.sec2-details {
+  padding-top: 10%;
+}
+
+.sec2_imgdiv1 h2 {
+  font-weight: 300;
+}
+
+.sec2_imgdiv1 p {
+  color: #98a3a3;
+  font-size: 1rem;
+  line-height: 27px;
+  margin: 0% 10%;
+}
+.sec2_imgdiv21{
+  width:100%;
+ height: 35%;
+ margin: 14% 0%;
+}
+.sec2_img2 {
+  height: 100%;
+  width: 100%;
+}
+
+
+.sec2_imgbar2 {
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+  padding: 8% 3%;
+}
+
+.sec2_imgbar2 h5 {
+  font-size: 0.9rem;
+  color: #a3a3a3;
+  letter-spacing: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.sec2_imgbar2 h1 {
+  padding-top: 4%;
+  font-size: 4.2rem;
+  font-weight: 500;
+  line-height: 1.1;
+}
+
+.sec2_imgbar2 p {
+  line-height: 28px;
+  padding-top: 5%;
+}
+
+.sec2_b1 {
+  background-color: #fcd462;
+  color: black;
+  border: #fcd462;
+  height: 60px;
+  width: 160px;
+  margin-top: 40px;
+}
+
+.sec2_b1:hover {
+  background-color: transparent;
+  color: #fcd462;
+  border: 1px solid #fcd462;
+}
+
+@media (max-width:1150px) {
+  .sec_2_1 {
+    width: 95%;
+  }
+
+  .sec_2 {
+    padding: 230px 0 110px 0;
+  }
+
+  .sec2_imgdiv1 {
+    height: 289px;
+    width: 210px;
+  }
+
+  .sec2_img1 {
+    height: 60px;
+    width: 51px;
+    margin-top: 21px;
+  }
+
+  .sec2_imgdiv1 h2 {
+    padding-top: 20px;
+  }
+
+  .sec2-details {
+    padding-top: 22px;
+  }
+
+  .sec2_img2 {
+    height: 212px;
+    width: 207px;
+  }
+  .sec2_imgbar2 {
+    width: 52%;
+}
+.sec2_imgbar2 h1 {
+  font-size: 68px;
+}
+.sec2_b1 {
+  height: 47px;
+}
+}
+@media (max-width:900px) {
+  .sec_2_1 {
+   flex-direction: column;
+   width: 100%;
+   height: fit-content;
+   background-size: 100% 40%;
+   gap: 40px;
+}
+.sec2_imgdiv1 {
+  height: 430px;
+  width: 100%;
+}
+.sec2_img2 {
+  height: 349px;
+  width: 100%;
+}
+.sec2_imgbar1 {
+  width: 90%;
+  justify-content: center;
+}
+.sec2_ibar11 {
+  width: 50%;
+}
+.sec2_img1 {
+  height: 99px;
+  width: 87px;
+  margin-top: 48px;
+}
+.sec2_imgdiv1 h2 {
+  padding-top: 50px;
+}
+.sec2_imgdiv1 p {
+  font-size: 22px;
+  line-height: 27px;
+  margin: 20px 30px;
+}
+.sec_2 {
+  padding: 273px 0 110px 0;
+}
+.sec2_imgbar2 {
+  width: 90%;
+}
+}
+@media(max-width:540px){
+  .sec_2 {
+    padding: 20px 0 80px 0;
+}
+.sec2_imgbar1 {
+  width: 95%;
+}
+.sec2_imgdiv1 {
+  height: 298px;
+}
+.sec2_imgbar1 {
+  width: 95%;
+  flex-direction: column;
+}
+.sec2_ibar11 {
+  width: 100%;
+  align-items: center;
+}
+.sec2_img1 {
+  height: 80px;
+  width: 67px;
+  margin-top: 31px;
+}
+.sec2_imgdiv1 h2 {
+  padding-top: 12px;
+}
+.sec2_imgdiv1 p {
+  margin: 13px 30px;
+}
+.sec2_img2 {
+  width: 100%;
+}
+.sec2_imgbar2 h1 {
+  font-size: 50px;
+}
+.sec_2_1 {
+  background-size: 100% 22%;
+  gap: 60px;
+}
+.sec2_b1 {
+  width: 143px;
+  margin-top: 28px;
+  font-size: 12px;
+}
+}
+@media (max-width:400px) {
+  .sec2_imgbar2 h1 {
+    font-size: 39px;
+}
+.sec2_b1 {
+  height: 45px;
+  width: 134px;
+  margin-top: 28px;
+  font-size: 10px;
+}
+.sec2_imgdiv1 p {
+  font-size: 17px;
+}
+}

@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.loginContainer {
+    background-color: #1c1b19;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formBox {
+    width: 70%;
+}
+
+.loginContainer h2 {
+    color: #fff;
+    font-family: 'Prata', serif;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+
+.loginContainer form {
+    background-color: #353530;
+    padding: 35px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: #a3a3a3;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input label {
+    font-size: 14px;
+}
+
+.input label span {
+    color: red;
+}
+
+.input input {
+    outline: none;
+    border: none;
+    background-color: #1c1b19;
+    color: #fff;
+    padding: 20px 10px;
+    transition: .2s all ease-in-out;
+}
+
+/* input[type=checkbox] {
+    accent-color: #fcd462;
+} */
+.checkboxField:before {
+    /* transition-timing-function: cubic-bezier(.075, .820, .165, 1); */
+      border: 2px solid;
+      border-radius: 0;
+      background-color: white;
+      border-color: transparent;
+      box-sizing: border-box;
+      color: #fcd462;
+      content: close-quote;
+      display: inline-block;
+      height: 12px;
+      outline: 2px solid #fcd462;
+      transition-duration: .5s;
+      transition-property: background-color, border-color;
+      width: 12px;
+  }
+  
+  .checkboxField:checked:before {
+    background-color: #fcd462;
+    border-color: white;
+  }
+
+
+.submitBox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#submitBtn {
+    padding: 16px 35px;
+    background-color: #fcd462;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    transition: .2s all linear;
+    cursor: pointer;
+}
+
+#submitBtn:hover {
+    color: #fff;
+    background-color: #D2B051;
+    outline: none;
+}
+
+#forgottag {
+    font-size: 12px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;
+}

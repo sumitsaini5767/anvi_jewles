@@ -1,0 +1,219 @@
+.container_mob{
+  display: none;
+}
+
+.foot{
+    position: relative;
+    z-index: 3;
+    background: #1c1b19;
+    background-image: url("/public/images/bgp.png");
+  
+    height: 100%;
+    width: 100%;
+    padding: 4%;
+    background-color: #1c1b19;
+  }
+  
+  .back2top{
+    display: inline-flex;
+    padding: 0px 0px 40px 40px;
+    align-items: center;
+  }
+  .back2top span{
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  .back2top i{
+    background: #fcd462;
+    color: #1c1b19;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  
+  .footSec1{
+    display: flex;
+    background-color: #353530;
+    padding: 40px 80px 40px 40px;
+  }
+  
+  .footSec1 ul{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    list-style: none;
+  }
+  .footSec1 ul li{
+    padding: 5px 10px;
+  
+  }
+  
+  .footSec1Lft{
+    width: 85%;
+  }
+  
+  .footSec1Lft img{
+    height: 78px;
+    width: 200px;
+    vertical-align: top;
+  }
+  
+  #IconsImg{
+    height:16px;
+    width:16px;
+  }
+  
+  .footSec1Lft ul{
+    justify-content: flex-start;
+    padding-top: 20px;
+    padding-left: 0px;
+    color: #a3a3a3;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+ .footer-link{
+  color:#a3a3a3 ;
+  margin-right: 12px;
+  margin-left: 5px;
+ }
+  .footSec1rgt{
+    display: flex;
+    width: 15%;
+    padding: 2px;
+  }
+  
+  
+  .footSec1rgt li{
+    margin-left: 5px;
+    background-color: #2a2a26 ;
+  }
+  
+  
+  .footSec2{
+    display: flex;
+    justify-content: space-between;
+    background-color: #353530;
+    padding: 40px 80px 40px 40px;
+  }
+  
+  
+  
+  .footSec2Phone{
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    width: 218px;
+  }
+  
+  .footSec2Phone img{
+    margin-top:5px;
+    height:40px ;
+    width:40px;
+  }
+  
+  .footSec2Phone1{
+    position: relative;
+    right: 10px;
+  }
+  .footSec2Phone1 h4{
+    font-size: 20px;
+    color: white;
+    margin: 0px 0px 10px;
+  }
+  .footSec2Phone1 h6{
+    font-weight:normal;
+    font-size: 14px;
+    color: #9c9c9c;
+    margin: 10px 0px 20px;
+  }
+  
+  
+  
+  .footSec2Email{
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    width: 218px;
+  }
+  .footSec2Email img{
+    margin-top:5px;
+    height:40px ;
+    width:40px;
+  }
+  .footSec2Email1{
+    position: relative;
+    right: 25px;
+  }
+  .footSec2Email1 h4{
+    font-size: 20px;
+    color: white;
+    margin: 0px 0px 10px;
+  }
+  .footSec2Email1 h6{
+    font-weight:normal;
+    font-size: 14px;
+    color: #9c9c9c;
+    margin: 10px 0px 20px;
+  }
+  
+  
+  
+  
+  .footSec2Srch{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+    border-bottom: 2px solid #40403b;
+    width: 218px;
+    height: 40px;
+    
+  }
+  
+  .footSec2Srch1 input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: white;
+  }
+  #foot-search::placeholder{
+    color: white;
+    font-size: 15px;
+  }
+  .footSec2add{
+    display:flex;
+    justify-content: space-between;
+    height:80px;
+    width: 218px;
+  }
+  .footSec2add1{
+    position: relative;
+    left:-20px;
+  }
+  
+  .footSec2add1 h4{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: white;
+  }
+  
+  .footSec2add1 h6{
+    font-weight:normal;
+    font-size: 14px;
+    color: #9c9c9c;
+    margin: 10px 0px 20px;
+  }
+  
+  .footSec2addImg img{
+    margin-right: 30px;
+    height:40px ;
+    width:37px;
+  }

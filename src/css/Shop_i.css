@@ -1,0 +1,130 @@
+#shop_1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+    position: relative;
+    background-image: url("/public/images/shop_bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #020d13;
+    height: fit-content;
+    font-family: prata,'Times New Roman', Times, serif;
+    padding-top: 25vh;
+  }
+  #shop_1_div1{
+    display: flex;
+    justify-content: space-between;
+
+  }
+  .shop_i_images{
+    position: relative;
+    left:10%;
+    top:26%;
+    width: 40vw;
+  }
+  .shop_i_img{
+    position: absolute;
+    transform: rotate(-9deg);
+    height: 43vh;
+    width: 15vw;
+  }
+  .shop_ii_img{
+    position: absolute;
+    top: 5%;
+    left: 26%;
+    transform: rotate(3deg);
+    height: 44vh;
+    width: 15.5vw;
+  }
+  .shop_i_text{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    position: relative;
+    width: 45%;
+    top:1%;
+    right:8%;
+  }
+  .shop_i_text_head{
+    text-align: center;
+  }
+  .shop_i_text h1{
+    font-size: 4.5rem;
+    line-height: 78px;
+  }
+  .shop_i_text_para{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+    margin-top: 2%;
+  }
+  #shop-b1{
+    background-color:#fcd462 ;
+    height: 50px;
+    width: 35%;
+    border: #fcd462;
+    margin-top: 5%;
+  }
+  #shop-b1:hover{
+    background-color: transparent;
+    color:#fcd462;
+    border: 1px solid #fcd462;
+  }
+  .shop_i_radio{
+    margin-top: 5%;
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+  }
+  .shop_i_radio1{
+    height: 15px;
+    width:15px;
+    border-radius: 50%;
+    background-color: transparent;
+    border:2px solid #FCD462;
+  }
+  #shop_i_radio11{
+    background-color: #FCD462;;
+  }
+
+  .shopbtn{
+    display: flex;
+    background-color: transparent;
+    /* align-items: center; */
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    bottom: -3vh;
+    }
+    
+  .shopbtn ul{
+    
+    background-color: #353530;
+    display: flex;
+    list-style-type: none;
+    /* width: 12%; */
+    padding: 0.5% 1.8%;
+    justify-content: center;
+    align-items: center;
+  }
+  .shopbtn ul li{
+    margin: 6%;
+  }
+  .shopbtn ul b:hover{
+    color: #fcd462;
+  }
+  .shop-btn1{
+    color: white;
+    
+  }
+  .shop-btn3{
+    color:#fcd462;
+    
+  }
+  .shop-btn2{
+    position: relative;
+    height: 8px;
+    width: 8px;
+    background-color:#fcd462;
+  }
+  

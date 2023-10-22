@@ -1,0 +1,109 @@
+.shop_ii{
+  padding-top: 10vh;
+  background-color: #1C1B19;
+  width: 100%;
+  padding-bottom: 10vh;
+}
+/* .shop_1Bar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width:100%;
+  }
+  .shop_1bar1{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+
+  }
+  .sh-bar1{
+    display: flex;
+    height:180px;
+    width: 250px;
+    border:none;
+    text-align: left;
+    color: white;
+    margin-right: 20px;
+    padding: 20px;
+    background-color: #353530;
+  }
+  
+  .sh-img_div{
+    height: 50px;
+    width:50px;
+    background-color: #fcd462;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .shop_1Bar img{
+    height: 20px;
+    width: 20px;
+  }
+  .shop1_imagehover{
+    display: none;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 35px;
+    animation: mymove 0.4s; 
+  }
+  .shop1_imagehover_2{
+    display: none;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 40px;
+    animation: mymove 0.4s; 
+  }
+  .shop1_imagehover_3{
+    display: none;
+    position: relative;
+    padding-top: 20px;
+    padding-left: 25px;
+    animation: mymove 0.4s;
+  }
+  @keyframes mymove {
+    from {left: 15px; top:20px;}
+    to {left: 0px;top:0px;}
+  }
+  .shop1_imagehover img{
+    height:100px;
+    width:100px;
+  }
+  .shop1_imagehover_2 img{
+    height:100px;
+    width:100px;
+  }
+  .shop1_imagehover_3 img{
+    height:100px;
+    width:100px;
+  }
+  .sh-bar1:hover{
+    background-color: #1c1b19;
+    border: 2px solid #454541;
+  }
+  .sh-bar1:hover .shop1_imagehover{
+    display: block;
+  }
+  .sh-bar1:hover .shop1_imagehover_2{
+    display: block;
+  }
+  .sh-bar1:hover .shop1_imagehover_3{
+    display: block;
+  }
+  .sh-bar1 h5{
+  padding-top: 18px;
+  font-size: 25px;
+  font-weight: 500;
+  }
+  .sh-bar1 p{
+    padding-top: 15px;
+    font-size: 17px;
+    font-weight: 500;
+    color:#8a8a89;
+  }
+  .sh-bar-img{
+    filter: brightness(0);
+  }
+  .sh-bar-img-bg{
+    filter: grayscale(100%) brightness(50%);
+  } */

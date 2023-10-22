@@ -1,0 +1,61 @@
+.latest_collections{
+    background-color: #1c1b19;
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: center;
+    padding-bottom: 18vh;
+}
+.latest_collection{
+    padding-top: 8%;
+    display: flex;
+    width: 95%;
+    height: fit-content;
+}
+.latest_collection-text{
+    width: 35%;
+    overflow: hidden;
+    color: white;
+    /* margin-right: 3%; */
+    padding-right: 3%;
+}
+.latest_collection-text h5{
+    padding-top: 3%;
+    font-size: 0.89rem;
+    color: #a3a3a3;
+    letter-spacing: 3px;
+    }
+.latest_collection-text h1{
+    padding-top: 5%;
+    font-size: 4.3rem;
+    font-family: prata, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    line-height: 1.1;
+    }
+.latest_collection-text p{
+    padding-top: 6%;
+    line-height: 1.6;
+    color: #a3a3a3;
+    }
+.latest_collection-btn{
+    background-color: #fcd462;
+    color: black;
+    border: #fcd462;
+    padding: 5.5% 9%;
+    margin-top: 10%;
+    }
+.latest_collection-btn:hover{
+    background-color:transparent;
+    color:#fcd462;
+    border:1px solid #fcd462;
+    }
+.sell-slider{
+    width: 75%;
+    display:block;
+    overflow: hidden;
+}
+li.react-multi-carousel-item.react-multi-carousel-item--active {
+    margin-left: 0px;
+}
+

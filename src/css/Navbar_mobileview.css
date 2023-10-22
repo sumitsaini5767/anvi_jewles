@@ -1,0 +1,89 @@
+@media (max-width: 600px) {
+    .nav{
+        width:100%;
+        margin:0;
+        height: 6%;
+    }
+    .dropdowns{
+        display: none;
+    }
+    .mainMenu{
+      display: flex;
+      height: 100vh;
+      width: 100%;
+      position: fixed;
+      list-style: none;
+      top: 0px;
+      right: 0px;
+      left: 0px;
+      z-index: 4;
+      padding: 20% 5% 40%;
+      flex-direction: column;
+      justify-content:flex-start;
+      align-items: center;
+      background-color: #353530;
+      transition: top 1s ease 0s;
+
+      /*animation*/
+      animation-name: example;
+      animation-duration: 1s;  
+      animation-fill-mode: forwards;
+    }
+
+    .mainMenu li{
+        margin-top: 7% ;
+    }
+    .mainMenu li a{
+        color: #a3a3a3;
+    }
+    .mainMenu li a:hover{
+        color: #fcd462;
+    }
+
+
+    @keyframes example {
+        from {top: -100%;}
+        to {top: 0;}
+    }
+    #pic2{
+        position: relative;
+        top:-20%;
+        width: 80%;
+    }
+    .closeMenu{
+        position: relative;
+        margin-top: 15%;
+        font-size: 40px;
+    }
+    .nav{
+        align-items: center;
+    }
+    #pic1{
+        position: relative;
+        left: -5%;
+        width: 70%;
+    }
+    .Ham_menu{
+        display: flex !important;
+        width: 60%;
+        height: 100%;
+        justify-content: flex-end;
+        flex-direction: row;
+        align-items: center;
+        position: relative;
+        font-size: 180%;
+        right: 0;
+        color: white;
+        display: block;
+    }
+    .Ham_menu svg{
+        margin-right: 3%;
+    }
+    .wish_lst{
+        position: relative;
+        right: 5%;
+        font-size: 60%;
+    }
+
+
+}

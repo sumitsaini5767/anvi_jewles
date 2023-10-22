@@ -1,0 +1,151 @@
+.gal1{
+    background-image: url("/public/images/contact_bground.jpg");
+    height: fit-content;
+    padding-top: 10vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position-x: 51%;
+    background-size: cover;
+    position: relative;
+    top:0;
+    z-index: 1;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+  }
+  .text1{
+    color: white;
+    margin-top: 7%;
+    margin-bottom: 1%;
+    text-align: center;
+  }
+  .text1 p{
+    letter-spacing: 3px;
+    font-size: 15px;
+    /* margin-left: 20%; */
+  }
+  .text1 h1{
+    letter-spacing: 3px;
+    font-size: 80px;
+    font-weight: lighter;
+    font-family:prata,'Times New Roman', Times, serif;
+    margin-top: 5%;
+  }
+  .galbtn{
+    display: flex;
+    justify-content: space-around;
+    /* height: 60px;
+    width: 200px; */
+    background-color: #353530;
+    position: relative;
+    bottom:-4vh;
+    padding: 10px;
+    
+    }
+  .galbtn ul{
+    display: flex;
+    list-style-type: none;
+    /* margin: 18px 15px 0 -15px;
+    justify-content: space-around; */
+  }
+  .galbtn ul li{
+    margin: 5px;
+  }
+  .galbtn ul b:hover{
+    color: #fcd462;
+  }
+  .btn1{
+    color: white;
+    
+  }
+  .btn2{
+    position: relative;
+    top:8px;
+    margin-left: 5px;
+    height: 8px;
+    width: 8px;
+    background-color:#fcd462;
+  }
+  .btn3 b{
+    color:#fcd462;
+  }
+
+  .galpg2{
+    background-color: #1c1b19;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20vh;
+    width: 100%;
+  }
+  .main-galdiv{
+    padding: 12vh 0vh;
+    width: 90%;
+    justify-content: center;
+  }
+  .galdiv1{
+    display: flex;
+    justify-content: space-between;
+    margin: 7vh 0vh;
+  }
+  .galdiv2{
+    display: flex;
+  }
+  .img-div {
+    overflow: hidden;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+}
+.img-div1{
+  overflow: hidden;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+  .img-div img{
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+  }
+  .img-div:hover img{
+    transform: scale(1.1);
+  }
+  
+  .gal-bottom{
+    display: flex;
+    width: 100%;
+  }
+  .gal-bottom img{
+    height:45vh;
+    width: 20%;
+  }
+.popup-imgg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  display: none;
+}
+.close{
+  position: absolute;
+  top:0;
+  right: 10%;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+  z-index: 2;
+}
+.popup-imgg img{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  object-fit: cover;
+  max-width: 85%;
+}

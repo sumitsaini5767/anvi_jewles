@@ -1,0 +1,152 @@
+
+.dashboardContainer{
+    width: 100%;
+    background-color: #1c1b19;
+    padding: 90px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dashBox{
+    width: 73%;
+    display: flex;
+    gap: 20px;
+}
+.BoxLeft{
+    width: 30%;
+}
+.dashBox ul{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.dashBox ul li{
+    list-style: none;
+    background-color: #40403b;
+    padding: 16px 10px;
+    display: flex;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 100;
+    transition: .2s all ease;
+    cursor: pointer;
+}
+.dashBox ul li:hover{
+    color: #fcd462;
+}
+.dashBox ul li:nth-child(6){
+    background-color: #ffcccc;
+    color: #ff666c;
+}
+.dashBox ul li:nth-child(6):hover{
+    background-color: #ff666c;
+    color: #fcd462;
+}
+.BoxRight{
+    padding: 10px;
+    padding-top: 0;
+    width: 70%;
+}
+.BoxRight h4{
+    padding-bottom: 20px;
+}
+.BoxRight h4, .BoxRight p{
+    font-size: 14px;
+    color: #9c9b93;
+}
+
+.BoxRight h4 span{
+    color: #fff;
+    font-weight: bold;
+    padding: 0;
+}
+.BoxRight h4 span:nth-child(3), .BoxRight p span{
+    color: #fcd462;
+    padding: 0;
+}
+.orderBox{
+    width: 100%;
+    background-color: #40403b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+    padding: 22px 10px;
+    border-bottom: 3px solid #fcd462;
+}
+.orderLeft h3{
+    color: #fff;
+    padding: 0;
+    font-size: 14.5px;
+}
+.orderBox h4{
+    color: #fff;
+    padding: 0;
+    font-size: 12px;
+    cursor: pointer;
+}
+.addressBox h4{
+    padding: 0;
+    font-weight: 100;
+}
+
+.addressAddBox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;margin: 18px 0;
+    color: #9c9b93;
+}
+.addressAddBox h2{
+    font-size: 25px;
+    font-family: 'Prata', serif;
+    color: #fff;
+    font-weight: 100;
+}
+.addressAddBox h5{
+    border-bottom: 1px solid #9c9b93;
+    cursor: pointer;
+}
+.addressAddBox h5:hover{
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+.firstDiv{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    width: 100%;
+}
+.BoxRight form label{
+    color: #9c9b93;
+}
+.BoxRight form .input{
+    width: 100%;
+    margin-bottom: 30px;
+}
+.BoxRight form input{
+    background-color: #353530;
+    color: #fff;
+}
+.input h5{
+    color: #9c9b93;
+}
+.BoxRight form h4{
+    font-size: 28px;
+    font-weight: 100;
+}
+.BoxRight form input[type=submit]{
+    padding: 18px 35px;
+    background-color: #fcd462;
+    color: #000; 
+    outline: none;   
+    border: none;
+    font-size: 16px;
+}
+.active{
+    background-color: #fcd462 !important;
+}
+.active:hover{
+    color: #fff !important;
+}
